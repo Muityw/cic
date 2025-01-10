@@ -1,0 +1,77 @@
+body {
+    background-color: #f8f8f8;
+   }
+   
+   .menu {
+       background-color: #005999;
+   }
+   body {
+       margin: 0;
+       font-family: Arial, sans-serif;
+   }
+   
+   header {
+       background-color: #005999;
+       color: white;
+       padding: 15px 0;
+       position: fixed;
+       top: 0;
+       width: 100%;
+   }
+   
+   .menu {
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       display: flex;
+       justify-content: right;
+       gap: 20px;
+   }
+   
+   .menu li {
+       display: inline;
+   }
+   
+   .menu a {
+       color: white;
+       text-decoration: none;
+       font-weight: bold;
+       padding: 10px 15px;
+   }
+   
+   .menu a:hover {
+       background-color: #0077b6;
+       padding: 15px;
+   }
+   
+   main {
+       margin-top: 60px; /* Compensa o espaço do menu fixo */
+       padding: 20px;
+   }
+
+   #sobre{
+    padding: 20px; /*para não grudar no menu*/
+    width: 80%; /* Largura do texto ajustada (responsiva) */
+    max-width: 800px; /* Limita o tamanho máximo em telas maiores */
+    margin: 20px auto; /* Centraliza horizontalmente e adiciona espaço acima/abaixo */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 1.2em; /* Aumenta o tamanho do texto (ajustável) */
+    line-height: 1.5; /* Aumenta o espaçamento entre linhas */
+   }   
+
+   .cic {
+    width: 70%; /* O contêiner ocupa 70% da largura da página */
+    margin: 50px auto; /* Centraliza o contêiner horizontalmente */
+    padding: 50px;
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+.cic img {
+    width: 50%; /* Imagem ocupa a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+#txt{
+    padding-top: 50px;
+    text-align: center;
+}
