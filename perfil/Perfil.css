@@ -41,11 +41,11 @@ body {
    
    .menu a:hover {
        background-color: #0077b6;
-       padding: 15px;
+       padding: 26.45px;
    }
    
    main {
        margin-top: 60px; /* Compensa o espaço do menu fixo */
-       padding: 20px;
+       padding: 26.45px;
    }
    
