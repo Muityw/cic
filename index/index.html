@@ -10,19 +10,31 @@
     <header>
         <!-- Logo e texto -->
         <div class="logo">
-            <img src="../public/CicLogo.png" alt="Logo do Site">
+            <a href="index.html">
+                <img src="../public/CicLogo.png" alt="Logo do Site">
+            </a>
             <span>CIC - Vida Nova</span>
         </div>
-
-        <!-- Espaço no meio -->
-        <div class="espaco-meio"></div>
 
         <!-- Menu de navegação -->
         <nav>
             <ul class="menu">
                 <li><a href="../sobre/Sobre.html">Sobre</a></li>
-                <li><a href="../cursos/Cursos.html">Cursos</a></li>
-                <li><a href="../perfil/Perfil.html">Perfil</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Cursos <span class="arrow">></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../cursos/curso1.html">Curso 1</a></li>
+                        <li><a href="../cursos/curso2.html">Curso 2</a></li>
+                        <li><a href="../cursos/curso3.html">Curso 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Perfil <span class="arrow">></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../perfil/editar.html">Editar Perfil</a></li>
+                        <li><a href="../perfil/configuracoes.html">Configurações</a></li>
+                    </ul>
+                </li>
                 <li><a href="../contato/FaleConosco.html">Entre em contato</a></li>
             </ul>
         </nav>
@@ -30,7 +42,8 @@
 
     <main>
         <h1>Bem-vindo ao Site</h1>
-
     </main>
+
+    <script src="../public/script.js"></script>
 </body>
 </html>

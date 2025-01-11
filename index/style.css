@@ -58,7 +58,7 @@ header {
 }
 
 .menu a:hover {
-    background-color: #0077b6;
+    background-color: #014366;
     padding: 26.45px;
 }
 
@@ -66,4 +66,55 @@ header {
 main {
     margin-top: 60px; /* Compensa o espaço do menu fixo */
     padding: 20px;
+}
+.logo a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: inline-block; /* Mantém o layout da logo */
+}
+/* Estilo do menu dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none; /* Esconde o submenu por padrão */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #005999;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #014366;
+}
+
+/* Estilo da seta */
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+/* Rotação da seta quando o dropdown está aberto */
+.dropdown.active .arrow {
+    transform: rotate(90deg);
+}
+
+/* Mostrar o dropdown quando ativo */
+.dropdown.active .dropdown-menu {
+    display: block;
 }
