@@ -1,51 +1,120 @@
+/* Estilo do corpo da página */
 body {
     background-color: #f8f8f8;
-   }
-   
-   .menu {
-       background-color: #005999;
-   }
-   body {
-       margin: 0;
-       font-family: Arial, sans-serif;
-   }
-   
-   header {
-       background-color: #005999;
-       color: white;
-       padding: 15px 0;
-       position: fixed;
-       top: 0;
-       width: 100%;
-   }
-   
-   .menu {
-       list-style: none;
-       margin: 0;
-       padding: 0;
-       display: flex;
-       justify-content: right;
-       gap: 20px;
-   }
-   
-   .menu li {
-       display: inline;
-   }
-   
-   .menu a {
-       color: white;
-       text-decoration: none;
-       font-weight: bold;
-       padding: 10px 15px;
-   }
-   
-   .menu a:hover {
-       background-color: #0077b6;
-       padding: 26.45px;
-   }
-   
-   main {
-       margin-top: 60px; /* Compensa o espaço do menu fixo */
-       padding: 26.45px;
-   }
-   
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #005999;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex; /* Alinha a logo e o menu horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Coloca a logo à esquerda e o menu à direita */
+}
+
+/* Estilo da logo e texto */
+.logo {
+    display: flex; /* Alinha a imagem e o texto horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-left: 20px; /* Espaçamento à esquerda */
+}
+
+.logo img {
+    height: 40px; /* Ajuste o tamanho da imagem conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.logo span {
+    font-size: 18px; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo do menu */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens do menu */
+    margin-right: 20px; /* Espaçamento à direita */
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 26.45px;
+}
+
+.menu a:hover {
+    background-color: #014366;
+    padding: 26.45px;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    margin-top: 60px; /* Compensa o espaço do menu fixo */
+    padding: 20px;
+}
+.logo a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: inline-block; /* Mantém o layout da logo */
+}
+/* Estilo do menu dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none; /* Esconde o submenu por padrão */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #005999;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #014366;
+}
+
+/* Estilo da seta */
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+/* Rotação da seta quando o dropdown está aberto */
+.dropdown.active .arrow {
+    transform: rotate(90deg);
+}
+
+/* Mostrar o dropdown quando ativo */
+.dropdown.active .dropdown-menu {
+    display: block;
+}

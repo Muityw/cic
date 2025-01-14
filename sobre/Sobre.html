@@ -3,30 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
+    <title>Site com Logo e Navegação</title>
     <link rel="stylesheet" href="Sobre.css">
 </head>
 <body>
     <header>
+        <!-- Logo e texto -->
+        <div class="logo">
+            <a href="../index/index.html">
+                <img src="../public/CicLogo.png" alt="Logo do Site">
+            </a>
+            <span>CIC - Vida Nova</span>
+        </div>
+
+        <!-- Menu de navegação -->
         <nav>
             <ul class="menu">
-                <li><a href="Sobre.html">Sobre</a></li>
-                <li><a href="Cursos.html">Cursos</a></li>
-                <li><a href="Perfil.html">Perfil</a></li>
-                <li><a href="Perfil.html">Entre em contato</a></li>
+                <li><a href="../sobre/Sobre.html">Sobre</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Cursos <span class="arrow">></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../cursos/Ceprocamp.html">Ceprocamp</a></li>
+                        <li><a href="../cursos/Espro.html">Espro</a></li>
+                        <li><a href="../cursos/Coletivo.html">Coletivo Vn</a></li>
+                        <li><a href="../cursos/CentroSaude.html">Centro de Saúde</a></li>
+                        <li><a href="../cursos/FundoSocial.html">Fundo Social</a></li>
+                        <li><a href="../cursos/BaseComun.html">Base Comunitária</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Perfil <span class="arrow">></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../perfil/AlterarLogin.html">Editar Perfil</a></li>
+                        <li><a href="../perfil/Inscrições.html">Inscrições</a></li>
+                    </ul>
+                </li>
+                <li><a href="../contato/FaleConosco.html">Entre em contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <h1 id="txt">Sobre o CIC Vida Nova</h1>
+    <main>
+        <body>
+            <h1 id="txt">Sobre o CIC Vida Nova</h1>
 
-    <div class="cic">
-    <img src="img/cic_vida_nova.jpg" alt="CIC vida nova">
-    </div>
+            <div class="cic">
+            <img src="img/cic_vida_nova.jpg" alt="CIC vida nova">
+            </div>
+        
+            <p id="sobre">O CIC Vida Nova atua como um ponto de apoio e transformação, oferecendo recursos fundamentais para cidadãos que buscam garantir seus direitos, acessar serviços essenciais 
+                e participar de iniciativas que promovam a inclusão social e o fortalecimento da comunidade. A unidade também desempenha um papel crucial ao conectar pessoas com oportunidades
+                de crescimento pessoal e profissional.
+            </p>
+        
+    </body>
+    </main>
 
-    <p id="sobre">O CIC Vida Nova atua como um ponto de apoio e transformação, oferecendo recursos fundamentais para cidadãos que buscam garantir seus direitos, acessar serviços essenciais 
-        e participar de iniciativas que promovam a inclusão social e o fortalecimento da comunidade. A unidade também desempenha um papel crucial ao conectar pessoas com oportunidades
-        de crescimento pessoal e profissional.</p>
-
+    <script src="../public/script.js"></script>
 </body>
 </html>
