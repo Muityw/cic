@@ -27,10 +27,11 @@ h1{
 
 .simboloAcessibilidade img{
     float: right;
-    width: 60px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 30px;
 }
-
 /* Estilo da logo e texto */
 .logo {
     display: flex; /* Alinha a imagem e o texto horizontalmente */
@@ -161,7 +162,7 @@ p {
     }
 }
 
-img{
+.cic img{
     width: 600px;
     height: auto;
     border: 2px solid #ddd;

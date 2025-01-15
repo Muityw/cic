@@ -125,10 +125,10 @@ main {
 }
 
 .course-square {
-    width: calc(30% - 20px); /* Adjust for spacing */
+    width: calc(30% - 20px);
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 35px;
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -150,16 +150,20 @@ main {
 img{
     width: 350px;
     height: 300px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 h1{
     text-align: center;
+    margin-left: 300px;
+}
+
+h4{
+    text-align: left;
+    margin-left: 50px;
+    line-height: 20px;
 }
 .search-container {
-    float: right; /* Aligns the search bar to the right */
-    margin: 25px; /* Adds some spacing */
+    float: right;
+    margin: 25px;
 }
 #courseSearch {
     padding: 5px;
@@ -173,4 +177,10 @@ h1{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.card {
+    background-color: #042e6d48;
+    padding: 30px;
+    width: 400px;
 }
