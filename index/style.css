@@ -148,3 +148,11 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.Equipe img {
+    opacity: 0.05; 
+    transition: opacity 0.3s ease; 
+}
+
+.Equipe img:hover {
+    opacity: 1; 
+}
