@@ -71,6 +71,7 @@ main {
     text-decoration: none; /* Remove o sublinhado do link */
     display: inline-block; /* Mantém o layout da logo */
 }
+
 /* Estilo do menu dropdown */
 .dropdown {
     position: relative;
@@ -118,9 +119,11 @@ main {
 .dropdown.active .dropdown-menu {
     display: block;
 }
+
 .image-container {
     display: flex;
-    justify-content: space-around; /* or space-between */
+    flex-direction: column; /* Stack images and text vertically */
+    align-items: center; /* Center align items */
     margin: 20px 0;
 }
 

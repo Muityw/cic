@@ -39,3 +39,16 @@ document.addEventListener('DOMContentLoaded', function () {
 function mostrarMensagem(){
     alert("Este site é acessível para pessoas com daltônismo.");
 }
+
+document.getElementById('searchButton').addEventListener('click', function() {
+    const query = document.getElementById('courseSearch').value.toLowerCase();
+    const courses = document.querySelectorAll('.course-square');
+    courses.forEach(course => {
+        const title = course.querySelector('h2').textContent.toLowerCase();
+        if (title.includes(query)) {
+            course.style.display = 'block'; 
+        } else {
+            course.style.display = 'none'; 
+        }
+    });
+});

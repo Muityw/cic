@@ -118,3 +118,59 @@ main {
 .dropdown.active .dropdown-menu {
     display: block;
 }
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-square {
+    width: calc(30% - 20px); /* Adjust for spacing */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course-square button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #005999;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-square button:hover {
+    background-color: #014366;
+}
+img{
+    width: 350px;
+    height: 300px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+h1{
+    text-align: center;
+}
+.search-container {
+    float: right; /* Aligns the search bar to the right */
+    margin: 25px; /* Adds some spacing */
+}
+#courseSearch {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#searchButton {
+    padding: 5px 10px;
+    background-color: #005999;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
