@@ -35,3 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+function mostrarMensagem(){
+    alert("Este site é acessível para pessoas com daltônismo.");
+}

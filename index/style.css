@@ -18,6 +18,21 @@ header {
     justify-content: space-between; /* Coloca a logo à esquerda e o menu à direita */
 }
 
+h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+h3{
+    margin-left: 50px;
+    font-weight: normal;
+}
+
+.simboloAcessibilidade img{
+    float: right;
+}
+
 /* Estilo da logo e texto */
 .logo {
     display: flex; /* Alinha a imagem e o texto horizontalmente */
