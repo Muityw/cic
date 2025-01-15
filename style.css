@@ -19,7 +19,7 @@ header {
 }
 
 h1{
-    margin-top: 300px;
+    margin-top: 150px;
     margin-left: 100px;
     font-size: 50px;
 }
@@ -140,17 +140,13 @@ main {
 
 .imagemCIC img{
     float: right;
-    margin-right: 100px;
-    margin-top: 100px;
+    margin-right: 30px;
+    margin-top: 5px;
     width: 600px;
-    height: auto;
+    height: 540px;
     border: 2px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.Equipe img {
-    opacity: 0.05; 
-    transition: opacity 0.3s ease; 
 }
 
 
