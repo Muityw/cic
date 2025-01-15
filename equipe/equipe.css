@@ -18,6 +18,12 @@ header {
     justify-content: space-between; /* Coloca a logo à esquerda e o menu à direita */
 }
 
+.simboloAcessibilidade img{
+    float: right;
+    width: 60px;
+    margin-top: 30px;
+}
+
 /* Estilo da logo e texto */
 .logo {
     display: flex; /* Alinha a imagem e o texto horizontalmente */

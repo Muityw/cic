@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site com Logo e Navegação</title>
     <link rel="stylesheet" href="Contato.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -44,15 +45,33 @@
     </header>
 
     <main>
+        <div class="simboloAcessibilidade">
+            <img src="/imagens/acessibilidade.jpeg" onclick="mostrarMensagem()">
+        </div>
         <h1>Como você prefere falar com a gente?</h1>
         <div class="cic">
             <div class="card">
                 <img id="telefone" src="/imagens/telefone.png">
                 <h3>Tem alguma dúvida?</h3>
+                <h3>ciccampinas@justica.sp.gov.br</h3>
             </div>
             <div class="card">
-                <img id="email" src="/imagens/email.jpeg">
+                <img id="email" src="/imagens/email.png">
                 <h3>Você pode ligar a qualquer hora</h3>
+                <h3>(19) 3226-6161 ou (19) 3226-6889</h3>
+            </div>
+            <div class="card">
+                <div class="social-icons">
+                    <h2>Redes sociais</h2>
+                    <a href="https://www.facebook.com/ciccampinasvidanova?local" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/cic.campinas/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                        Instagram
+                    </a>
+                </div>
             </div>
         </div>
     </main>

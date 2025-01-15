@@ -137,20 +137,62 @@ main {
 .card img{
     width: 80px;
     height: auto;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 110px;
+    margin-top: 5px;
 }
 
 .cic{
     display: flex;
-    gap: 400px;
+    gap: 100px;
     justify-content: center;
+    margin-top: 150px;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #042e6d48;
+    border-radius: 8px;
+    box-shadow: 20px 30px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
     text-align: center;
-    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.social-icons {
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #555;
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #005999; 
+}
+
+.social-icons h2{
+    color:#005999
+}
+
+.simboloAcessibilidade img{
+    float: right;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
 }

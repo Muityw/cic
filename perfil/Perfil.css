@@ -118,3 +118,9 @@ main {
 .dropdown.active .dropdown-menu {
     display: block;
 }
+
+.simboloAcessibilidade img{
+    float: right;
+    width: 60px;
+    margin-top: 30px;
+}

@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function mostrarMensagem(){
-    alert("Este site é acessível para pessoas com daltônismo.");
+    alert("Este site é acessível para pessoas com daltonismo.");
 }
 
 document.getElementById('searchButton').addEventListener('click', function() {
